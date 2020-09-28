@@ -23,6 +23,8 @@ Supported Prophesee EVK:
 
 First of all, install Metavision SDK following [these instructions](https://docs.prophesee.ai/getting_started/installation/linux.html).
 
+### MB note:These metavision binaries seems to be unauthenticated - so I had to do the really dodgy apt-get update --allow-insecure-repositories
+
 Then, compile the wrapper code:
 
   * Clone the source code to your catkin workspace ( [create a workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace), if needed)
